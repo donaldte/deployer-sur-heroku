@@ -11,9 +11,9 @@ pip freeze > requirements.txt
 
 AJOUTER DANS LE FICHIER setting.py cette ligne
 
-STATIC_ROOT = os.path(BASE_DIR, 'static')
+STATIC_ROOT = os.path(BASE_DIR, 'static')                                                                                             
 
---CREER UN CONPTE SUR HEROKU
+--CREER UN CONPTE SUR HEROKU                                                                                                         
 https://signup.heroku.com/
 
 --DOWNLOAD HEROKU CLI
