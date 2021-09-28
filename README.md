@@ -7,35 +7,35 @@ https://www.atlassian.com/git/tutorials/install-git
 Assurez vous que l'environnemetn virtual est active si vous en avez.
 Rassenble tout vous pakage dans le fichier requirements.txt grace a la commade suivanate.
 
-pip freeze > requirements.txt
+pip freeze > requirements.txt</br>
 
 AJOUTER DANS LE FICHIER setting.py cette ligne
 
-STATIC_ROOT = os.path(BASE_DIR, 'static')                                                                                             
+STATIC_ROOT = os.path(BASE_DIR, 'static')</br>                                                                                       
 
---CREER UN CONPTE SUR HEROKU                                                                                                         
-https://signup.heroku.com/
+--CREER UN CONPTE SUR HEROKU  </br>                                                                                                   
+https://signup.heroku.com/</br>
 
---DOWNLOAD HEROKU CLI
-https://devcenter.heroku.com/articles/heroku-cli
+--DOWNLOAD HEROKU CLI</br>
+https://devcenter.heroku.com/articles/heroku-cli</br>
 
---CONFIGURER DJANGO HEROKU
-https://devcenter.heroku.com/articles/django-app-configuration
+--CONFIGURER DJANGO HEROKU</br>
+https://devcenter.heroku.com/articles/django-app-configuration</br>
 
-DANS LE TERMINAL TAPEZ CES COMMANDES:
-git init
-git add .
-git commint -m "premier commit"
-heroku login 
-heroku create nom_du_domain
-git push heroku master
-heroku run python manage.py migrate
-heroku open
+DANS LE TERMINAL TAPEZ CES COMMANDES:</br>
+git init</br>
+git add .</br>
+git commint -m "premier commit"</br>
+heroku login </br>
+heroku create nom_du_domain</br>
+git push heroku master</br>
+heroku run python manage.py migrate</br>
+heroku open</br>
 
-dans le setting DEBUG=False
+dans le setting DEBUG=False</br>
 
-si vous faite des modification sur votre application la seul chose a faire c'est de taper ces lignes de commande:
-git init
-git add .
-git commint -m "expliquer en un ou deux mots la modification ici"
+si vous faite des modification sur votre application la seul chose a faire c'est de taper ces lignes de commande:</br>
+git init</br>
+git add .</br>
+git commint -m "expliquer en un ou deux mots la modification ici"</br>
 git push heroku master
