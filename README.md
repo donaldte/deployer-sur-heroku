@@ -31,6 +31,9 @@ https://devcenter.heroku.com/articles/heroku-cli</br>
 --CONFIGURER DJANGO HEROKU</br>
 https://devcenter.heroku.com/articles/django-app-configuration</br>
 
+POUR AVOIR LA CONFIGURATION DU WHITENOISE 
+https://whitenoise.evans.io/en/stable/django.html
+
 DANS LE TERMINAL TAPEZ CES COMMANDES:</br>
 git init</br>
 git add .</br>
