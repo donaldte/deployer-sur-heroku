@@ -1,17 +1,26 @@
 # deployer-sur-Heroku
 Ici est une partie d'un tuto sur youtube ou je vous montre comment deployer un project django en moins de 15 minites.
 
+1-CREER VOTRE DJANGO</br> 
+Assurez vous que l'environnemetn virtual est active si vous en avez.
+
+2-INSTALLER psycopy2, gunicorn, django-heroku</br> 
+
+3-CREER LE FICHIER runtime.txt</br> 
+
+4-CREER LE FICHIER Procfile sans extension</br> 
+
+5-GENERER Le fichier requirements.txt
+Rassenble tout vous pakage dans le fichier requirements.txt grace a la commade suivanate.
+pip freeze > requirements.txt</br>
+
+
+6-METTRE TON PROJECT SUR GIT
+
 INSTALLER GIT 
 https://www.atlassian.com/git/tutorials/install-git
 
-Assurez vous que l'environnemetn virtual est active si vous en avez.
-Rassenble tout vous pakage dans le fichier requirements.txt grace a la commade suivanate.
-
-pip freeze > requirements.txt</br>
-
-AJOUTER DANS LE FICHIER setting.py cette ligne
-
-STATIC_ROOT = os.path(BASE_DIR, 'static')</br>                                                                                       
+                                                                                     
 
 --CREER UN CONPTE SUR HEROKU  </br>                                                                                                   
 https://signup.heroku.com/</br>
