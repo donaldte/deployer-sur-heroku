@@ -4,7 +4,7 @@ Ici est une partie d'un tuto sur youtube ou je vous montre comment deployer un p
 1-CREER VOTRE DJANGO</br> 
 Assurez vous que l'environnemetn virtual est active si vous en avez.
 
-2-INSTALLER psycopy2, gunicorn, django-heroku</br> 
+2-INSTALLER psycopy2, gunicorn, django-heroku, dj_database_url</br> 
 
 3-CREER LE FICHIER runtime.txt</br> 
 
@@ -49,5 +49,5 @@ dans le setting DEBUG=False</br>
 si vous faite des modification sur votre application la seul chose a faire c'est de taper ces lignes de commande:</br>
 git init</br>
 git add .</br>
-git commint -m "expliquer en un ou deux mots la modification ici"</br>
+git commint -m "expliquer en quelques mots la modification ici"</br>
 git push heroku master
