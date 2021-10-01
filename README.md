@@ -4,7 +4,7 @@ Ici est une partie d'un tuto sur youtube ou je vous montre comment deployer un p
 1-CREER VOTRE DJANGO</br> 
 Assurez vous que l'environnemetn virtual est active si vous en avez.
 
-2-INSTALLER psycopy2, gunicorn, django-heroku, dj_database_url</br> 
+2-INSTALLER psycopg2, gunicorn, django-heroku, dj_database_url</br> 
 
 3-CREER LE FICHIER runtime.txt</br> 
 
