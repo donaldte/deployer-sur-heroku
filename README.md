@@ -1,4 +1,4 @@
-# deployer-sur-Heroku
+# deployer un project django sur heroku
 Ici est une partie d'un tuto sur youtube ou je vous montre comment deployer un project django en moins de 15 minites.
 
 1-CREER VOTRE DJANGO</br> 
