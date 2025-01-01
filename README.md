@@ -20,8 +20,7 @@ pip freeze > requirements.txt</br>
 INSTALLER GIT 
 https://www.atlassian.com/git/tutorials/install-git
 
-                                                                                     
-
+                                                                                    
 --CREER UN CONPTE SUR HEROKU  </br>                                                                                                   
 https://signup.heroku.com/</br>
 
